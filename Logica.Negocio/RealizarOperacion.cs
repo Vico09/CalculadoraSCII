@@ -17,23 +17,26 @@ namespace Logica.Negocio
             switch (operador)
             {
                 case "+":
-                    var laReferencia = new Suma();
-                    elResultado = laReferencia.Operar(operandoUno, operandoDos);
+                    var laSuma = new Suma();
+                    elResultado = laSuma.Operar(operandoUno, operandoDos);
                     break;
 
-/*
+
                 case "-":
-                    elResultado = Resta.Operar(operandoUno, operandoDos);
+                    var LaResta = new Resta();
+                    elResultado = LaResta.Operar(operandoUno, operandoDos);
                     break;
 
                 case "*":
-                    elResultado = Multiplicacion.Operar(operandoUno, operandoDos);
+                    var LaMultiplicacion = new Multiplicacion();
+                    elResultado = LaMultiplicacion.Operar(operandoUno, operandoDos);
                     break;
 
                 case "/":
-                    elResultado = Division.Operar(operandoUno, operandoDos);
+                    var LaDivision = new Division(); 
+                    elResultado = LaDivision.Operar(operandoUno, operandoDos);
                     break;
-*/
+
             }
             return (elResultado);
         }
