@@ -39,6 +39,12 @@ namespace Logica.Negocio
 
             }
             return (elResultado);
+
+            /* Realizar las siguientes operacion 
+                        * X^y potencia
+                        * sen(x) 
+                        * cos(x)
+                        * logn(x)   */
         }
     }
 }
